@@ -1,0 +1,14 @@
+<button mat-raised-button class="btn" (click)="navigateLinkAdd()">Zurück</button>
+<div class="outer">
+    <div class="inner">
+        <h3>Füge eine URL zur Datenbank hinzu:</h3>
+        <br><br>
+        <mat-form-field class="formField">
+            <mat-label class="matLabel">link</mat-label>
+            <input [(ngModel)]="url" matInput type="text"  >
+        </mat-form-field>
+        <p class="text">(no http, only www.xyz.de))</p>
+        <br>
+        <button mat-raised-button class="btn" (click)="addLink()">Speichern</button>
+    </div>
+</div>

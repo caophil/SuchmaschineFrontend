@@ -1,0 +1,16 @@
+.spacer {
+    flex: 1 1 auto;
+  }
+
+mat-toolbar-row {
+    .button {
+        margin-left: 1rem;
+    }
+}
+
+mat-toolbar {
+    background-color: cornflowerblue;
+    color: white;
+    padding: 20px;
+}
+

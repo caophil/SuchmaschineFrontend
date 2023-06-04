@@ -1,0 +1,12 @@
+<button  mat-raised-button class="btn" (click) = "navigateLinkAdd();">Link hinzufügen</button>
+<div class="outer">
+    <div class="inner">
+        <h3 class="titel">Suche</h3>
+        <br><br>
+        <mat-form-field class="formField">
+            <mat-label class="matLabel">Suchbegriffe</mat-label>
+            <input [(ngModel)]="eingabe" matInput type="text"  >
+        </mat-form-field>
+        <button mat-raised-button class="btn" >Suchen</button>
+    </div>
+</div>

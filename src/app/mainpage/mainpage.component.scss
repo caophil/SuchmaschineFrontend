@@ -1,0 +1,38 @@
+
+button.btn{
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.inner{
+    margin-top: 30px;
+    background-color: lightgrey;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 500px;
+
+
+
+}
+
+.outer{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+.titel{
+    text-align: center;
+}
+
+.formField{
+    height: 50px;
+    padding: 10px;
+    width: 350px;
+}

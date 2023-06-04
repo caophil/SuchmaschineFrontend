@@ -1,0 +1,42 @@
+
+.inner{
+    margin-top: 30px;
+    background-color: lightgrey;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 400px;
+
+
+
+}
+
+.outer{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+.formField{
+    height: 50px;
+    padding: 10px;
+}
+
+.matLabel{
+    margin-top: 20px;
+}
+
+button.btn{
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.text{
+    margin: 0;
+    margin-left: 10px;
+    color: gray;
+}
