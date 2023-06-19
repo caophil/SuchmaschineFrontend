@@ -14,7 +14,7 @@
                 Ergebnisse: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Anzahl Treffer auf Seite
             </mat-card-header>
             <mat-card-content *ngFor="let result of results" class="card">
-            <a href="'https://'{{ result.link}}" class="link">{{result.link}}</a>
+            <a href="{{ result.link}}" class="link">{{result.link}}</a>
             <div class="rank">{{result.rank}}</div>
             </mat-card-content>
         </mat-card>
